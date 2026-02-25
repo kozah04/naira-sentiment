@@ -10,3 +10,4 @@ datasets
 huggingface-hub
 tqdm
 python-dotenv
+pytest
