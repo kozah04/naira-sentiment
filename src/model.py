@@ -1,5 +1,5 @@
-import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import torch # type: ignore
+from transformers import AutoTokenizer, AutoModelForSequenceClassification # type: ignore
 
 MODEL_NAME = "kozah04/naira-sentiment-afriberta"
 DEMO_MODEL_NAME = "cardiffnlp/twitter-roberta-base-sentiment-latest"
